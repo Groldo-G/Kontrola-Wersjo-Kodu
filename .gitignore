@@ -1,5 +1,17 @@
-# Object file
-*.o
+#pliki skompiowane programów w python
+*.pyc
 
-# Ada Library Information
-*.ali
+#pliki logów i tymczsowe
+*.log
+*.tmp
+
+#katalogi konfiguracji IDE i środowiska
+.venv
+.idea
+
+#pliki rozszerzeń 
+*.so
+
+#dane konfiguracyje środowiska
+.env
+passwords.ini
